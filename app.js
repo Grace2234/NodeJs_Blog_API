@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 
 // connecting to database
-mongoose.connect('mongodb://127.0.0.1:27017/Simple_Blog_API');
+mongoose.connect('mongodb://127.0.0.1:27017/NodeJs_Blog_API');
 
 const database = mongoose.connection;
 
